@@ -6,54 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coder's Docer</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <!-- Bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
     <header>
-        <nav class="container navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <h1 class="me-5">Coder's Docer</h1>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Course</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Deal</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Success</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Register</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="btn btn-outline-primary">Register</div>
-            </div>
-        </nav>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="row w-100">
+                    <div class="col-lg-3">
+                        <h3 class="fw-bolder">Coder's DocKer</h3>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Course</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Deal</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Success</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Register</a>
+                                </li>
+                            </ul>
 
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
         <!-- slider section start -->
         <section class="container">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/cover/cover_1.jpg" class="img-fluid" alt="...">
+                        <img src="images/cover/cover_1.jpg" class="img-fluid w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Don't abuse your code</h2>
                             <p>HackerOne community members have the opportunity to hack on some of the most challenging
@@ -62,7 +77,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/cover/cover_2.jpg" class="img-fluid" alt="...">
+                        <img src="images/cover/cover_2.jpg" class="img-fluid w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Try to code fast & cleanly</h2>
                             <p>A program is said to be written in Clean and its execution would not produce different
@@ -72,7 +87,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/cover/cover_3.png" class="img-fluid" alt="...">
+                        <img src="images/cover/cover_3.png" class="img-fluid w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Pprogramming language.</h2>
                             <p>Javascript is used by programmers across the world to create dynamic and interactive web
@@ -94,7 +109,237 @@
             </div>
         </section>
         <!-- slider section end -->
-    </header>
+        <!-- Discover courses start -->
+        <section class="container mt-5">
+            <div class="container w-50 my-5">
+                <div class="text-center d-flex flex-column justify-content-center">
+                    <h2 class="fw-bolder">Discover Our Popular <br> Courses</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.</p>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row g-2">
+                    <div class="col-12 col-lg-6">
+                        <div class="border bg-light d-flex align-items-center">
+                            <img src="images/course/course-1.png" alt="">
+                            <div class="m-3">
+                                <h5 class="text-start fw-bolder">Fundamental Of UI/UX Design</h5>
+                                <p class="text-start">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <h6 class="text-start text-primary fw-bold">Price: 20$</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="border bg-light d-flex align-items-center">
+                            <img src="images/course/course-2.png" alt="">
+                            <div class="m-3">
+                                <h5 class="text-start fw-bolder">Javascript Basic to advanced</h5>
+                                <p class="text-start">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <h6 class="text-start text-primary fw-bold">Price: 20$</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="border bg-light d-flex align-items-center">
+                            <img src="images/course/course-3.png" alt="">
+                            <div class="m-3">
+                                <h5 class="text-start fw-bolder">Fullstack Web Development</h5>
+                                <p class="text-start">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <h6 class="text-start text-primary fw-bold">Price: 20$</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="border bg-light d-flex align-items-center">
+                            <img src="images/course/course-4.png" alt="">
+                            <div class="m-3">
+                                <h5 class="text-start fw-bolder">Digital Marketing</h5>
+                                <p class="text-start">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <h6 class="text-start text-primary fw-bold">Price: 20$</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="border lg-light d-flex align-items-center">
+                            <img src="images/course/course-5.png" alt="">
+                            <div class="m-3">
+                                <h5 class="text-start fw-bolder">Photography Basic Rules</h5>
+                                <p class="text-start">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <h6 class="text-start text-primary fw-bold">Price: 20$</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="border bg-light d-flex align-items-center">
+                            <img src="images/course/course-6.png" alt="">
+                            <div class="m-3">
+                                <h5 class="text-start fw-bolder">Motion Graphics</h5>
+                                <p class="text-start">Some quick example text to build on the card title
+                                    and make up the bulk of the card.</p>
+                                <h6 class="text-start text-primary fw-bold ">Price:20$</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn btn-primary btn-sm px-4 py-2 my-5">See More Courses</div>
+            </div>
+        </section>
+        <!-- Discover courses end -->
+
+        <!-- Register Section Start -->
+        <section style="height:300px;" class="container bg-primary d-flex">
+            <div>
+                <div>
+                    <h2 class="text-light">Ready to join?</h2>
+                    <p class="text-light">It is a long established fact that a reader will be distracted by the
+                        readable content of a page when looking at its layout.</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div>
+                    <div class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Register Now
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Welcome!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    To join with us, please signup first. <br>
+                                    Thank you!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Register Section End -->
+
+        <!-- Questions Section start -->
+        <section class="container w-50">
+            <div class="container my-5">
+                <div class="text-center d-flex flex-column justify-content-center">
+                    <h2 class="fw-bolder">Frequently asked Questions</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.</p>
+                </div>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            <strong> What are differences between flexbox & grid?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is
+                            that flexbox was designed for layout in one dimension - either a row or a column. Grid was
+                            designed for two-dimensional layout - rows, and columns at the same time.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <strong>What are the differences between Bootstrap & Tailwind CSS?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate
+                            the class. This is the second item's accordion body. Let's imagine
+                            this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <strong>What is CSS box modal?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate
+                            the class. This is the third item's accordion body. Nothing more
+                            exciting happening here in terms of content, but just filling up the space to make it look,
+                            at
+                            least at first glance, a bit more representative of how this would look in a real-world
+                            application.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            <strong> What is the semantic tag?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate
+                            the class. This is the third item's accordion body. Nothing more
+                            exciting happening here in terms of content, but just filling up the space to make it look,
+                            at
+                            least at first glance, a bit more representative of how this would look in a real-world
+                            application.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Questions Section end -->
+    </main>
+
+
+    <!-- Footer Section Start -->
+    <footer>
+        <section style="height:400px" class="container bg-black w-100">
+            <div class="container my-5">
+                <div class="text-center d-flex flex-column justify-content-center">
+                    <h2 class="fw-bolder">Coder's Docer</h2>
+                    <p>Home 3, Road 4, Block A, Mirpur-2, <br> Dhaka-1216</p>
+                    <p>Privacy Policy | Terms of Use</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- Footer Section End -->
 
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
